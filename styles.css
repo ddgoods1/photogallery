@@ -213,6 +213,26 @@ small {
     width: 100%;
 }
 
+figure {
+    position: relative;
+    height: fit-content;
+}
+
+figcaption {
+    position:absolute;
+    width: 100%;
+    text-align: center;
+    top: 5%;
+}
+
+.bottom_text {
+    top: 85%;
+}
+
+.text_white{
+    color: white;
+}
+
 #Contact {
     background-color: #000000;
     color: #ffff;
